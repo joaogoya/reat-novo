@@ -1,9 +1,0 @@
-<?php 
-require('colors.php');
-require('typografy.php'); 
-require('buttons.php');
-require('acordion.php');
-require('cards.php');
-require('slider.php');
-require('images.php');
-?>
