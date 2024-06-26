@@ -39,10 +39,10 @@ module.exports = function( grunt ) {
 
         /*watch*/
         watch: {
-            css: {
-                files: 'assets/css/main.css',
-                tasks: ['concat_css']
-            },
+            // css: {
+            //     files: 'assets/css/main.css',
+            //     tasks: ['concat_css']
+            // },
             scripts: {
                 files: ['assets/js/template/js_tema.js', 'assets/js/template/video-gallery.js'],
                 tasks: ['uglify', 'concat_css'],

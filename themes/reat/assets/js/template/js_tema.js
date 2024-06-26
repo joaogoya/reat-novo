@@ -1,7 +1,7 @@
 /*
 exibe e esconde o menu fixo qd o user da scrool
 */
-console.log("aaa");
+console.log("dddddddd");
 $(".fixed-mobile-menu").hide();
 
 $(document).ready(function () {

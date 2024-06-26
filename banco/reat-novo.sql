@@ -25,7 +25,7 @@ DELIMITER $$
 --
 -- Funções
 --
-CREATE DEFINER=`root`@`localhost` FUNCTION `wp_fn_realmedialibrary_childs` (`rootId` INT, `_useTempChildTableForCheck` BOOLEAN) RETURNS VARCHAR(1000) CHARSET utf8mb4 READS SQL DATA
+CREATE FUNCTION `wp_fn_realmedialibrary_childs` (`rootId` INT, `_useTempChildTableForCheck` BOOLEAN) RETURNS VARCHAR(1000) CHARSET utf8mb4 READS SQL DATA
     SQL SECURITY INVOKER
 BEGIN
         	DECLARE sTemp VARCHAR(1000);
